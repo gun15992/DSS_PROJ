@@ -7,6 +7,8 @@
         <title>Laravel</title>
 
         <link href="/vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+        
+        @vite('resources/js/app.js')
     </head>
     <body>
         <section class="vh-100" style="background-color: #eee">
@@ -26,14 +28,14 @@
                                                 <i class="fas fa-user fa-lg me-3 fa-fw"></i>
                                                 <div class="form-outline flex-fill mb-0">
                                                     <input type="text" id="form3Example1c" class="form-control" name="name" id="name"/>
-                                                    <label class="form-label">Your Name</label>
+                                                    <label class="form-label">Name</label>
                                                 </div>
                                             </div>
                                             <div class="d-flex flex-row align-items-center md-4">
                                                 <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
                                                 <div class="form-outline flex-fill mb-0">
                                                     <input type="email" id="form3Example3c" class="form-control" name="email" id="email"/>
-                                                    <label class="form-label">Your Email</label>
+                                                    <label class="form-label">Email</label>
                                                 </div>
                                             </div>
                                             <div class="d-flex flex-row align-items-center md-4">
