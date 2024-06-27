@@ -13,9 +13,18 @@
         "alpinejs": "^3.4.2",
         "autoprefixer": "^10.4.2",
         "axios": "^1.6.4",
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
         "bootstrap": "^5.2.3",
         "browser-sync": "^2.29.3",
         "browser-sync-webpack-plugin": "^2.0.1",
+=======
+>>>>>>> parent of 67ede34 (Update .env File)
+=======
+>>>>>>> parent of 67ede34 (Update .env File)
+=======
+>>>>>>> parent of 67ede34 (Update .env File)
         "laravel-vite-plugin": "^1.0",
         "postcss": "^8.4.31",
         "react": "^18.2.0",
