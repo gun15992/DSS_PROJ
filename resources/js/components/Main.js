@@ -23,5 +23,5 @@ function Main() {
 export default Main;
 
 if (document.getElementById('app')) {
-   ReactDOM.render(<Main/>, document.getElementById("app"));
+    ReactDOM.render(<Main/>, document.getElementById("app"));
 }
