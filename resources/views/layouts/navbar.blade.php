@@ -1,6 +1,10 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container">
-                <a href="#" class="navbar-brand">DSS Inventory</a>
+                <a href="#" class="navbar-brand">
+                    <div class="logo-image">
+                        <img src="full-logo.png" class="img-fluid">
+                    </div>
+                </a>
                 <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarText">
                     <span class="navbar-toggler-icon"></span>
                 </button>
