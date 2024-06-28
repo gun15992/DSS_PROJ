@@ -1,5 +1,5 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container">
+            <div class="container" ::before>
                 <a href="#" class="navbar-brand">
                     <div class="logo-image">
                         <img src="full-logo.png" class="img-fluid">
@@ -29,6 +29,9 @@
                                     <a class="dropdown-item" href="#">ค้นหาตามหน่วยงาน</a>
                                 </div>
                             </div>
+                        </li>
+                        <li class="nav-item ">
+                            <button type="button" class="btn btn-primary btn-me btn-block" style="float: right;">เข้าสู่ระบบ</button>
                         </li>
                     </ul>
                 </div>
