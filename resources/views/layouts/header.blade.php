@@ -9,6 +9,11 @@
 
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
 
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&display=swap" rel="stylesheet">
+
     @vite('resources/js/app.js')
 </head>
 <body>
