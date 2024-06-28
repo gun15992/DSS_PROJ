@@ -1,6 +1,6 @@
         <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ffff;">
             <div class="container" ::before>
-                <a href="#" class="navbar-brand">
+                <a href="/" class="navbar-brand">
                     <img src="logo.png" width="54" height="54" class="img-fluid" style="margin-right: 5px;"> DSS Inventory
                 </a>
                 <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarText">
@@ -9,17 +9,17 @@
                 <div class="collapse navbar-collapse" id="navbarText">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a href="#" class="nav-link fw-bold active" style="margin-right: 10px; margin-left: 15px;">หน้าหลัก</a>
+                            <a href="/" class="nav-link fw-bold active" style="margin-right: 10px; margin-left: 15px;">หน้าหลัก</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link fw-bold" style="margin-right: 10px;">สรุปภาพรวม</a>
+                            <a href="/dashboard" class="nav-link fw-bold" style="margin-right: 10px;">สรุปภาพรวม</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link fw-bold" style="margin-right: 10px;">ประเภทครุภัณฑ์</a>
+                            <a href="/type" class="nav-link fw-bold" style="margin-right: 10px;">ประเภทครุภัณฑ์</a>
                         </li>
                         <li class="nav-item">
                             <div class="dropdown show">
-                                <a href="#" class="btn dropdown-toggle nav-link fw-bold" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="margin-right: 40px;">ค้นหาครุภัณฑ์</a>
+                                <a href="#" class="btn dropdown-toggle nav-link fw-bold" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="margin-right: 30px;">ค้นหาครุภัณฑ์</a>
                                 <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                                     <a class="dropdown-item" href="#">ค้นหาตามชื่อครุภัณฑ์</a>
                                     <a class="dropdown-item" href="#">ค้นหาตามประเภทครุภัณฑ์</a>
@@ -38,7 +38,7 @@
                             </button>
                         </form>
                         <li class="nav-item ">
-                            <a href="/login" class="btn btn-primary btn-me active" role="button" aria-pressed="true">เข้าสู่ระบบ</a>
+                            <a href="/test" class="btn btn-primary btn-me active" role="button" aria-pressed="true">เข้าสู่ระบบ</a>
                         </li>
                     </ul>
                 </div>
