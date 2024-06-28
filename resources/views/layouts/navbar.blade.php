@@ -1,9 +1,7 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container" ::before>
                 <a href="#" class="navbar-brand">
-                    <div class="logo-image">
-                        <img src="full-logo.png" class="img-fluid">
-                    </div>
+                    <img src="logo.png" width="54" height="54" class="img-fluid"> DSS Inventory
                 </a>
                 <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarText">
                     <span class="navbar-toggler-icon"></span>
@@ -30,6 +28,10 @@
                                 </div>
                             </div>
                         </li>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
                         <li class="nav-item ">
                             <button type="button" class="btn btn-primary btn-me btn-block" style="float: right;">เข้าสู่ระบบ</button>
                         </li>
