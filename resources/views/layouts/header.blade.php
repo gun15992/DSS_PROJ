@@ -7,6 +7,9 @@
     
     <title>@yield('title')</title>
 
+    <!-- Icon -->
+    <link rel="icon" type="image/x-icon" href="logo.png">
+    
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
 
