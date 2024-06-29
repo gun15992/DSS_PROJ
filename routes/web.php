@@ -12,7 +12,7 @@ Route::get('/signin', function () {
 });
 
 Route::get('/dashboard', function () {
-    return view('welcome');
+    return view('auth.dashboard');
 });
 
 Route::get('/type', function () {
