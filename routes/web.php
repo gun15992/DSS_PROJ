@@ -7,15 +7,15 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/signin', function () {
+    return view('auth.signin');
+});
+
 Route::get('/dashboard', function () {
     return view('welcome');
 });
 
 Route::get('/type', function () {
-    return view('welcome');
-});
-
-Route::get('/test', function () {
     return view('welcome');
 });
 

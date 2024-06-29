@@ -19,12 +19,12 @@
                         </li>
                         <li class="nav-item">
                             <div class="dropdown show">
-                                <a href="#" class="btn dropdown-toggle nav-link fw-bold" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="margin-right: 30px;">ค้นหาครุภัณฑ์</a>
+                                <a href="#" class="btn dropdown-toggle nav-link fw-bold" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="margin-right: 20px;">ค้นหาครุภัณฑ์</a>
                                 <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                    <a class="dropdown-item" href="#">ค้นหาตามชื่อครุภัณฑ์</a>
-                                    <a class="dropdown-item" href="#">ค้นหาตามประเภทครุภัณฑ์</a>
-                                    <a class="dropdown-item" href="#">ค้นหาตามหมวดหมู่ครุภัณฑ์</a>
-                                    <a class="dropdown-item" href="#">ค้นหาตามหน่วยงาน</a>
+                                    <a class="dropdown-item" href="/type-search/name">ค้นหาตามชื่อครุภัณฑ์</a>
+                                    <a class="dropdown-item" href="/type-search/list">ค้นหาตามประเภทครุภัณฑ์</a>
+                                    <a class="dropdown-item" href="/type-search/category">ค้นหาตามหมวดหมู่ครุภัณฑ์</a>
+                                    <a class="dropdown-item" href="/type-search/section">ค้นหาตามหน่วยงาน</a>
                                 </div>
                             </div>
                         </li>
@@ -38,7 +38,12 @@
                             </button>
                         </form>
                         <li class="nav-item ">
-                            <a href="/test" class="btn btn-primary btn-me active" role="button" aria-pressed="true">เข้าสู่ระบบ</a>
+                            <a href="/signin" class="btn btn-primary btn-me active" role="button" aria-pressed="true">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                                    <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"/>
+                                </svg>
+                                เข้าสู่ระบบ
+                            </a>
                         </li>
                     </ul>
                 </div>
