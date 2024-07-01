@@ -1,4 +1,4 @@
-        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ffff;">
+        <nav class="navbar navbar-expand-lg navbar-light sticky-top" data-navbar-on-scroll="data-navbar-on-scroll" style="background-color:#ffff;">
             <div class="container" ::before>
                 <a href="/" class="navbar-brand">
                     <img src="logo.png" width="54" height="54" class="img-fluid" style="margin-right: 5px;"> DSS Inventory
@@ -30,7 +30,7 @@
                         </li>
                         <form class="d-flex">
                             <input class="form-control me-2" type="search" placeholder="ค้นหาครุภัณฑ์" aria-label="Search" style="margin-right: 5px;">
-                            <button class="btn btn-me btn-light" type="submit" style="margin-right: 20p">
+                            <button class="btn btn-me btn-light" type="submit" style="margin-right: 10px">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
                                     <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
                                 </svg>
