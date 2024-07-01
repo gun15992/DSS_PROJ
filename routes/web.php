@@ -16,7 +16,7 @@ Route::get('/dashboard', function () {
 });
 
 Route::get('/type', function () {
-    return view('home');
+    return view('pages.type');
 });
 
 // require __DIR__.'/auth.php';
