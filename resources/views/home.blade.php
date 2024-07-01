@@ -32,7 +32,7 @@
                                     <td>ยังไม่ระบุ</td>
                                     <td>ฝ่ายเทคโนโลยีสารสนเทศ</td>
                                     <td>สำนักห้องสมุด ดร.ตั้ว</td>
-                                    <td><span class="badge badge-pill badge-success">ใช้งาน</span></td>
+                                    <td><span class="badge badge-pill badge-success">ใช้งานอยู่</span></td>
                                 </tr>
                                 <tr>
                                     <td>2</td>
@@ -52,7 +52,7 @@
                                     <td>ยังไม่ระบุ</td>
                                     <td>ฝ่ายเทคโนโลยีสารสนเทศ</td>
                                     <td>สำนักห้องสมุด ดร.ตั้ว</td>
-                                    <td><span class="badge badge-pill badge-success">ใช้งาน</span></td>
+                                    <td><span class="badge badge-pill badge-success">ใช้งานอยู่</span></td>
                                 </tr>
                                 <tr>
                                     <td>4</td>
@@ -72,7 +72,7 @@
                                     <td>ยังไม่ระบุ</td>
                                     <td>ฝ่ายเทคโนโลยีสารสนเทศ</td>
                                     <td>สำนักห้องสมุด ดร.ตั้ว</td>
-                                    <td><span class="badge badge-pill badge-danger">จำหน่ายออก</span></td>
+                                    <td><span class="badge badge-pill badge-secondary">สูญหาย</span></td>
                                 </tr>
                             </tbody>
                         </table>
@@ -97,7 +97,8 @@
         }
         .table th {
             font-weight: 500;
-            color: #827fc0;
+            color: #000000;
+            text-align: center;
         }
         .table thead {
             background-color: #f3f2f7;
@@ -108,6 +109,7 @@
         }
         .table tr td {
             color: #8887a9;
+            text-align: center;
         }
         .thumb-sm {
             height: 32px;
