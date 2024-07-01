@@ -4,19 +4,19 @@ use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
 
-Route::get('/signin', function () {
-    return view('auth.signin');
+Route::get('/login', function () {
+    return view('auth.login');
 });
 
 Route::get('/dashboard', function () {
-    return view('auth.dashboard');
+    return view('pages.dashboard');
 });
 
 Route::get('/type', function () {
     return view('welcome');
 });
 
-require __DIR__.'/auth.php';
+// require __DIR__.'/auth.php';
