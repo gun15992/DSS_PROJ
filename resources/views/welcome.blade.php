@@ -74,6 +74,46 @@
                                     <td>สำนักห้องสมุด ดร.ตั้ว</td>
                                     <td><span class="badge badge-pill badge-danger">จำหน่ายออก</span></td>
                                 </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>วศ.ทช.10-011/x 25xx</td>
+                                    <td><a href="#">ครุภัณฑ์ 02</a></td>
+                                    <td>ยี่ห้อ 02</td>
+                                    <td>ยังไม่ระบุ</td>
+                                    <td>ฝ่ายเทคโนโลยีสารสนเทศ</td>
+                                    <td>สำนักห้องสมุด ดร.ตั้ว</td>
+                                    <td><span class="badge badge-pill badge-danger">จำหน่ายออก</span></td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>วศ.ทช.10-011/x 25xx</td>
+                                    <td><a href="#">ครุภัณฑ์ 03</a></td>
+                                    <td>ยี่ห้อ 03</td>
+                                    <td>ยังไม่ระบุ</td>
+                                    <td>ฝ่ายเทคโนโลยีสารสนเทศ</td>
+                                    <td>สำนักห้องสมุด ดร.ตั้ว</td>
+                                    <td><span class="badge badge-pill badge-success">ใช้งาน</span></td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>วศ.ทช.10-011/x 25xx</td>
+                                    <td><a href="#">ครุภัณฑ์ 04</a></td>
+                                    <td>ยี่ห้อ 04</td>
+                                    <td>ยังไม่ระบุ</td>
+                                    <td>ฝ่ายเทคโนโลยีสารสนเทศ</td>
+                                    <td>สำนักห้องสมุด ดร.ตั้ว</td>
+                                    <td><span class="badge badge-pill badge-danger">จำหน่ายออก</span></td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>วศ.ทช.10-011/x 25xx</td>
+                                    <td><a href="#">ครุภัณฑ์ 05</a></td>
+                                    <td>ยี่ห้อ 05</td>
+                                    <td>ยังไม่ระบุ</td>
+                                    <td>ฝ่ายเทคโนโลยีสารสนเทศ</td>
+                                    <td>สำนักห้องสมุด ดร.ตั้ว</td>
+                                    <td><span class="badge badge-pill badge-danger">จำหน่ายออก</span></td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -85,13 +125,13 @@
     </div>
     <style>
         body{
-            background:#ffff;
-            margin-top:20px;
+            background:#f5f5f5;
         }
         .card {
             border: none;
             -webkit-box-shadow: 1px 0 20px rgba(96,93,175,.05);
             box-shadow: 1px 0 20px rgba(96,93,175,.05);
+            margin-top: 30px;
             margin-bottom: 30px;
         }
         .table th {

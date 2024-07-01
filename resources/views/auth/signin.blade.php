@@ -1,3 +1,11 @@
+@extends('layouts.titlebar')
+
+@section('title', 'DSS Login')
+
+@vite('resources/js/app.js')
+
+<link rel="icon" type="image/x-icon" href="logo.png">
+
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
